@@ -1,5 +1,5 @@
 {
-  "name": "@musistudio/claude-code-router",
+  "name": "@heisir/claude-code-router",
   "version": "2.0.0",
   "description": "Use Claude Code without an Anthropics account and route it to another LLM provider",
   "scripts": {
@@ -20,6 +20,9 @@
     "dev:docs": "pnpm --filter claude-code-router-docs start",
     "serve:docs": "pnpm --filter claude-code-router-docs serve"
   },
+  "files": [
+    "dist"
+  ],
   "bin": {
     "ccr": "dist/cli.js"
   },
